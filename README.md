@@ -1,4 +1,15 @@
 # crontab编辑(阿里云主机)
+
+> 用flask作web发布，PaddleHub模型后端，做了个小网站，然而2G内存捉襟见肘，进程掉的厉害。。。
+>
+> 只好亲自操刀，做个每15分钟检查一次进程的小程序，如果掉了起起来，并告警到微信，告警用到方糖的服务。
+
+![1](E:\data\7.github\fangtanginuse\img\1.jpg)
+
+![2](E:\data\7.github\fangtanginuse\img\2.jpg)
+
+
+
 ## 1.配置crontab
 ```shell script
 crontab -e
