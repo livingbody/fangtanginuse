@@ -1,5 +1,4 @@
 #!/bin/sh
-
 #切换到目录
 cd /root/AutoCutout
 conda activate paddle
